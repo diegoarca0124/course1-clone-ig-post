@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Instagram Light";
+    src: url(./assets/InstagramSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "Instagram Medium";
+    src: url(./assets/InstagramSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Instagram Regular";
+    src: url(./assets/InstagramSans-Regular.ttf);
+}
+
+.ff-ig-light{
+    font-family: "Instagram Light" !important;
+}
+
+.ff-ig-regular{
+    font-family: "Instagram Regular" !important;
+}
+
+.ff-ig-medium{
+    font-family: "Instagram Medium" !important;
+}
+
+body{
+    height: 100vh !important;
+}
+
+.card {
+    border-radius: 0px !important;
+    border-color: #efefef !important; 
+}
+
+.profile{
+    width: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    border: double 3px transparent;
+    background-image: linear-gradient(white,white),linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.card-header{
+    background-color: white !important;
+    border-bottom: 1px solid #efefef !important;
+}
+
+.swiper-horizontal {
+    width: 100% !important;
+}
